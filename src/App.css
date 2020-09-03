@@ -16,6 +16,7 @@ html{
     font-size: 48px;
     color: white;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
     width: 600px;
     height: 200px;
     top: 50%;
@@ -100,6 +101,8 @@ html{
     margin-bottom: 40px;
     text-align: center;
     font-size: 48px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
     text-decoration: underline;
     color: #0E2046;
 }
@@ -472,6 +475,9 @@ button.slick-arrow.slick-next {
     margin: auto;
 }
 .contact-grid{
+}
+.contact-question{
+    text-align: center;
 }
 .contact-form{
     margin: auto;
