@@ -94,7 +94,9 @@ init("user_1ED4n9wgLPnUEAcEZymZd");
                               />
                       </GridItem>
                       <GridItem xs={3} md={3}>
-                          <Button type="submit">Submit</Button>
+                          <div className="form-button">
+                              <Button type="submit">Submit</Button>
+                          </div>
                       </GridItem>
                 </GridContainer>
             </form>

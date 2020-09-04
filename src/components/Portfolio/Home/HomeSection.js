@@ -26,7 +26,7 @@ export default function HomeSection() {
                   </button>
               </LinkScroll>
           </div>
-          <video poster={'./bgposter.png'} autoPlay loop muted className='bgvideo'>
+          <video autoPlay loop muted className='bgvideo'>
               <source src={'./videos/bgvideo.mov'} type='video/mp4'></source>
           </video>
       </header>

@@ -485,14 +485,30 @@ button.slick-arrow.slick-next {
     padding-bottom: 30px;
     max-width: 50vw;
 }
-.contact-message:{
+.contact-message{
     height: 80px;
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+.social-wrapper{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.svg-inline--fa.fa-w-16{
+    width: 20px;
+}
+.svg-inline--fa.fa-w-14{
+        width: 20px;
 }
 /* contact section end */
 
 @media (min-aspect-ratio:16/9) {
     .bgvideo{
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         background-color: rgb(3,5,6);
     }
