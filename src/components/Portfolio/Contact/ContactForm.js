@@ -55,7 +55,7 @@ export default function ContactForm() {
     });
 
     return (
-        <form onSubmit={handleSubmit(sendEmail)}>
+        <form onSubmit={handleSubmit(sendEmail)} noValidate>
             <GridContainer
                   direction="column"
                   justify="center"
