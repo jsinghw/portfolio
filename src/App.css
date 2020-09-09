@@ -488,9 +488,25 @@ button.slick-arrow.slick-next {
 .contact-message{
     height: 80px;
 }
+.form-input{
+    margin-top: 18px;
+    padding-bottom: 18px;
+}
+.form-error{
+    color: red;
+    margin-top: 0;
+}
+.form-error::before {
+  display: inline;
+  content: "⚠ ";
+}
 .form-button{
+    margin-top: 14px;
     display: flex;
     justify-content: center;
+}
+btn:disabled{
+
 }
 .social-wrapper{
     width: 900px;
