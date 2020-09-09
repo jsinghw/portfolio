@@ -72,15 +72,15 @@ function App() {
         <HomeSection></HomeSection>
         <NavSection>
         </NavSection>
-            <AboutSection>
-            </AboutSection>
-            <section id='portfolio'>
-                <h2 className="header-text">Portfolio</h2>
-                <CarouselSection>
-                </CarouselSection>
-            </section>
-            <ContactSection>
-            </ContactSection>
+        <AboutSection>
+        </AboutSection>
+        <section id='portfolio'>
+            <h2 className="header-text">Portfolio</h2>
+            <CarouselSection>
+            </CarouselSection>
+        </section>
+        <ContactSection>
+        </ContactSection>
     </div>
   );
 }

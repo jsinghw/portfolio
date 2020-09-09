@@ -475,6 +475,7 @@ button.slick-arrow.slick-next {
     margin: auto;
 }
 .contact-grid{
+    margin-top: 24px;
 }
 .contact-question{
     text-align: center;
