@@ -152,6 +152,7 @@ html{
 .about-text {
     margin: auto;
     text-align: center;
+    padding: 24px;
 }
 .about-me-wrapper{
     display: flex;
