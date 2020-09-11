@@ -83,7 +83,7 @@ export default function ContactForm() {
         });
     }
 
-    const { handleSubmit, register, errors, reset } = useForm({
+    const { handleSubmit, register, errors } = useForm({
         resolver: yupResolver(schema),
         mode: 'onChange'
     });

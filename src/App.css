@@ -95,9 +95,11 @@ html{
     transition-duration: 0.5s;
 }
 #about{
+    background-color: lightgrey;
 }
 .header-text {
-    margin-top: 40px;
+    padding-top: 40px;
+    margin-top: 0;
     margin-bottom: 40px;
     text-align: center;
     font-size: 48px;
@@ -154,7 +156,7 @@ html{
 .about-me-wrapper{
     display: flex;
     padding: 20px 60px;
-    margin: 40px auto;
+    margin: 0 auto;
     max-width: 1440px;
     justify-content: center;
 }
@@ -470,9 +472,16 @@ button.slick-arrow.slick-next {
     height: 0;
     border-left: 50vw solid transparent;
     border-right: 50vw solid transparent;
-
     border-top: 100px solid white;
-    margin: auto;
+    margin-top: -1px;
+}
+.arrow-down-portfolio{
+    width: 0;
+    height: 0;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top:  100px solid lightgrey;
+    margin-top: -1px;
 }
 .contact-grid{
     margin-top: 24px;
@@ -484,7 +493,7 @@ button.slick-arrow.slick-next {
     margin: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    max-width: 50vw;
+    max-width: 640px;
 }
 .contact-message{
     height: 80px;
@@ -510,16 +519,44 @@ btn:disabled{
 
 }
 .social-wrapper{
-    width: 900px;
+    max-width: 640px;
     margin: auto;
     display: flex;
+}
+.social-paper{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.social-header{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.social-item-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+}
+.social-item{
+    margin: auto;
+}
+.contact-back-to-top{
+    display: flex;
+    margin-top: 20px;
     justify-content: center;
 }
 .svg-inline--fa.fa-w-16{
     width: 20px;
 }
 .svg-inline--fa.fa-w-14{
-        width: 20px;
+    width: 20px;
+}
+.svg-inline--fa.fa-w-10{
+    width:16px;
 }
 /* contact section end */
 

@@ -25,6 +25,7 @@ export default function AboutSection() {
 
 
   return (
+      <React.Fragment>
       <section id='about'>
           <h2 className="header-text">About</h2>
           <div className='key-point-wrapper'>
@@ -128,5 +129,8 @@ export default function AboutSection() {
               </GridContainer>
           </div>
       </section>
+      <div className='arrow-down-portfolio'>
+      </div>
+      </React.Fragment>
   );
 }
