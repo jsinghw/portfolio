@@ -5,10 +5,7 @@ html{
 #home {
     display: flex;
     overflow-x: hidden;
-}
-.bgvideo {
-    z-index: -1;
-    object-fit: cover;
+    height: 100vh;
 }
 .home-text {
     position: absolute;
@@ -561,27 +558,78 @@ btn:disabled{
 }
 /* contact section end */
 
-@media (min-aspect-ratio:16/9) {
-    .bgvideo{
-        width: 100vw;
-        height: 100vh;
-        background-color: rgb(3,5,6);
+
+
+/* Start Wave background css */
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
     }
 }
-@media (max-aspect-ratio:16/9) {
-    .bgvideo{
-        width: auto;
-        height: 100vh;
-    }
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    margin-top: -1px;
 }
-@media (max-width: 767px) {
-    .bgvideo{
-        display: none;
-    }
-    .header{
-        background: url('bgposter.png');
-        background-size: cover;
-        background-position:center top;
-        background-repeat:no-repeat;
-    }
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
+    background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
 }
+.bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 5;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
+/* End Wave Background CSS */
