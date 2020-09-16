@@ -1,6 +1,9 @@
 import React from "react";
 
-import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
+import { Link as LinkScroll } from "react-scroll";
+import waveTop from 'assets/img/wave/wave-top.png'
+import waveMid from 'assets/img/wave/wave-mid.png'
+import waveBot from 'assets/img/wave/wave-bot.png'
 
 export default function HomeSection() {
 
@@ -8,13 +11,13 @@ export default function HomeSection() {
       <header id='home'>
           <div className="waveWrapper waveAnimation">
             <div className="waveWrapperInner bgTop">
-              <div className="wave waveTop" style={{backgroundImage: "url('http://front-end-noobs.com/jecko/img/wave-top.png')"}}></div>
+              <div className="wave waveTop" style={{backgroundImage: `url(${waveTop})`}}></div>
             </div>
             <div className="waveWrapperInner bgMiddle">
-              <div className="wave waveMiddle" style= {{backgroundImage: "url('http://front-end-noobs.com/jecko/img/wave-mid.png')"}}></div>
+              <div className="wave waveMiddle" style= {{backgroundImage: `url(${waveMid})`}}></div>
             </div>
             <div className="waveWrapperInner bgBottom">
-              <div className="wave waveBottom" style= {{backgroundImage: "url('http://front-end-noobs.com/jecko/img/wave-bot.png')"}}></div>
+              <div className="wave waveBottom" style= {{backgroundImage: `url(${waveBot})`}}></div>
             </div>
           </div>
           <div className='home-text noselect'>
