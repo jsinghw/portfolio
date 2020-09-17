@@ -11,9 +11,11 @@ import MuiAlert from '@material-ui/lab/Alert';
 
 
 import { TextField } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from 'components/CustomButtons/Button.js';
+
 
 init("user_1ED4n9wgLPnUEAcEZymZd");
 
@@ -27,6 +29,13 @@ const schema = yup.object().shape({
 function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
 }
+
+const useStyles = makeStyles({
+  input: {
+    maxWidth: '75%',
+    flexBasis: '75%'
+  },
+});
 
 
 export default function ContactForm() {
@@ -89,6 +98,9 @@ export default function ContactForm() {
     });
 
 
+    const classes = useStyles();
+
+
     return (
         <form onSubmit={handleSubmit(sendEmail)} noValidate>
             <GridContainer
@@ -96,7 +108,7 @@ export default function ContactForm() {
                   justify="center"
                   alignItems="center"
                   className="contact-grid">
-                  <GridItem xs={3} md={9}>
+                  <GridItem xs={3} md={9} className={classes.input}>
                       <TextField
                           className="form-input"
                           name="email"
@@ -108,7 +120,7 @@ export default function ContactForm() {
                           helperText={errors.email? errors.email.message:"\u00a0"}
                       />
                   </GridItem>
-                  <GridItem xs={3} md={9}>
+                  <GridItem xs={3} md={9} className={classes.input}>
                       <TextField
                           className="form-input"
                           name="name"
@@ -120,7 +132,7 @@ export default function ContactForm() {
                           helperText={errors.name? errors.name.message:"\u00a0"}
                       />
                   </GridItem>
-                  <GridItem xs={3} md={9}>
+                  <GridItem xs={3} md={9} className={classes.input}>
                       <TextField
                           className="form-input"
                           name="message"

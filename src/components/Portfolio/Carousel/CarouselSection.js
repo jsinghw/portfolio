@@ -34,211 +34,213 @@ export default function CarouselSection() {
           <div className='arrow-down-portfolio'>
           </div>
           <h2 className="header-text">Portfolio</h2>
-          <div className={classes.section} id="carousel">
-            <div className={classes.container}>
-              <GridContainer className='grid-container'>
-                <GridItem xs={12} sm={10} md={7} className={classes.marginAuto}>
-                  <div>
-                    <Carousel {...settings}>
-                      <div>
-                        <img src={image1} alt="First slide" className="slick-image" />
-                        <div className="slick-caption">
-                          <h4>
-                            <LocationOn className="slick-icons" />
-                            Yellowstone National Park, United States
-                          </h4>
-                        </div>
-                      </div>
-                      <div>
-                        <img
-                          src={image2}
-                          alt="Second slide"
-                          className="slick-image"
-                        />
-                        <div className="slick-caption">
-                          <h4>
-                            <LocationOn className="slick-icons" />
-                            Somewhere Beyond, United States
-                          </h4>
-                        </div>
-                      </div>
-                      <div>
-                        <img src={image3} alt="Third slide" className="slick-image" />
-                        <div className="slick-caption">
-                          <h4>
-                            <LocationOn className="slick-icons" />
-                            Yellowstone National Park, United States
-                          </h4>
-                        </div>
-                      </div>
-                    </Carousel>
+          <div className="carousel-wrapper">
+              <div className={classes.section} id="carousel">
+                  <div className={classes.container}>
+                      <GridContainer className='grid-container'>
+                          <GridItem xs={12} sm={10} md={7} className={classes.marginAuto}>
+                              <div>
+                                  <Carousel {...settings}>
+                                      <div>
+                                          <img src={image1} alt="First slide" className="slick-image" />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Yellowstone National Park, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                      <div>
+                                          <img
+                                              src={image2}
+                                              alt="Second slide"
+                                              className="slick-image"
+                                              />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Somewhere Beyond, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                      <div>
+                                          <img src={image3} alt="Third slide" className="slick-image" />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Yellowstone National Park, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                  </Carousel>
+                              </div>
+                          </GridItem>
+                          <GridItem xs={3} md={4}>
+                              <Card className='side-text-wrapper'>
+                                  <h3 className='side-text-header'>
+                                      Project 1
+                                  </h3>
+                                  <div className='side-text-body'>
+                                      words
+                                  </div>
+                              </Card>
+                          </GridItem>
+                      </GridContainer>
                   </div>
-                </GridItem>
-                <GridItem xs={3} md={4}>
-                    <Card className='side-text-wrapper'>
-                        <h3 className='side-text-header'>
-                          Project 1
-                        </h3>
-                        <div className='side-text-body'>
-                            words
-                        </div>
-                    </Card>
-                </GridItem>
-              </GridContainer>
-            </div>
-            <div className={classes.container}>
-              <GridContainer className='grid-container'>
-                <GridItem xs={3} md={4}>
-                    <Card className='side-text-wrapper'>
-                        <h3 className='side-text-header'>
-                          Project 1
-                        </h3>
-                        <div className='side-text-body'>
-                            words
-                        </div>
-                    </Card>
-                </GridItem>
-                <GridItem xs={12} sm={10} md={7} className={classes.marginAuto}>
-                <div>
-                <Carousel {...settings}>
-                <div>
-                <img src={image1} alt="First slide" className="slick-image" />
-                <div className="slick-caption">
-                <h4>
-                <LocationOn className="slick-icons" />
-                Yellowstone National Park, United States
-                </h4>
-                </div>
-                </div>
-                <div>
-                <img
-                src={image2}
-                alt="Second slide"
-                className="slick-image"
-                />
-                <div className="slick-caption">
-                <h4>
-                <LocationOn className="slick-icons" />
-                Somewhere Beyond, United States
-                </h4>
-                </div>
-                </div>
-                <div>
-                <img src={image3} alt="Third slide" className="slick-image" />
-                <div className="slick-caption">
-                <h4>
-                <LocationOn className="slick-icons" />
-                Yellowstone National Park, United States
-                </h4>
-                </div>
-                </div>
-                </Carousel>
-                </div>
-                </GridItem>
-              </GridContainer>
-            </div>
-            <div className={classes.container}>
-              <GridContainer className='grid-container'>
-                <GridItem xs={12} sm={10} md={7} className={classes.marginAuto}>
-                  <div>
-                    <Carousel {...settings}>
-                      <div>
-                        <img src={image1} alt="First slide" className="slick-image" />
-                        <div className="slick-caption">
-                          <h4>
-                            <LocationOn className="slick-icons" />
-                            Yellowstone National Park, United States
-                          </h4>
-                        </div>
-                      </div>
-                      <div>
-                        <img
-                          src={image2}
-                          alt="Second slide"
-                          className="slick-image"
-                        />
-                        <div className="slick-caption">
-                          <h4>
-                            <LocationOn className="slick-icons" />
-                            Somewhere Beyond, United States
-                          </h4>
-                        </div>
-                      </div>
-                      <div>
-                        <img src={image3} alt="Third slide" className="slick-image" />
-                        <div className="slick-caption">
-                          <h4>
-                            <LocationOn className="slick-icons" />
-                            Yellowstone National Park, United States
-                          </h4>
-                        </div>
-                      </div>
-                    </Carousel>
+                  <div className={classes.container}>
+                      <GridContainer className='grid-container'>
+                          <GridItem xs={3} md={4}>
+                              <Card className='side-text-wrapper'>
+                                  <h3 className='side-text-header'>
+                                      Project 1
+                                  </h3>
+                                  <div className='side-text-body'>
+                                      words
+                                  </div>
+                              </Card>
+                          </GridItem>
+                          <GridItem xs={12} sm={10} md={7} className={classes.marginAuto}>
+                              <div>
+                                  <Carousel {...settings}>
+                                      <div>
+                                          <img src={image1} alt="First slide" className="slick-image" />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Yellowstone National Park, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                      <div>
+                                          <img
+                                              src={image2}
+                                              alt="Second slide"
+                                              className="slick-image"
+                                              />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Somewhere Beyond, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                      <div>
+                                          <img src={image3} alt="Third slide" className="slick-image" />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Yellowstone National Park, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                  </Carousel>
+                              </div>
+                          </GridItem>
+                      </GridContainer>
                   </div>
-                </GridItem>
-                <GridItem xs={3} md={4}>
-                    <Card className='side-text-wrapper'>
-                        <h3 className='side-text-header'>
-                          Project 1
-                        </h3>
-                        <div className='side-text-body'>
-                            words
-                        </div>
-                    </Card>
-                </GridItem>
-              </GridContainer>
-            </div>
-            <div className={classes.container}>
-              <GridContainer className='grid-container'>
-              <GridItem xs={3} md={4}>
-                  <Card className='side-text-wrapper'>
-                      <h3 className='side-text-header'>
-                        Project 1
-                      </h3>
-                      <div className='side-text-body'>
-                          words
-                      </div>
-                  </Card>
-              </GridItem>
-                <GridItem xs={12} sm={10} md={7} className={classes.marginAuto}>
-                  <div>
-                    <Carousel {...settings}>
-                      <div>
-                        <img src={image1} alt="First slide" className="slick-image" />
-                        <div className="slick-caption">
-                          <h4>
-                            <LocationOn className="slick-icons" />
-                            Yellowstone National Park, United States
-                          </h4>
-                        </div>
-                      </div>
-                      <div>
-                        <img
-                          src={image2}
-                          alt="Second slide"
-                          className="slick-image"
-                        />
-                        <div className="slick-caption">
-                          <h4>
-                            <LocationOn className="slick-icons" />
-                            Somewhere Beyond, United States
-                          </h4>
-                        </div>
-                      </div>
-                      <div>
-                        <img src={image3} alt="Third slide" className="slick-image" />
-                        <div className="slick-caption">
-                          <h4>
-                            <LocationOn className="slick-icons" />
-                            Yellowstone National Park, United States
-                          </h4>
-                        </div>
-                      </div>
-                    </Carousel>
+                  <div className={classes.container}>
+                      <GridContainer className='grid-container'>
+                          <GridItem xs={12} sm={10} md={7} className={classes.marginAuto}>
+                              <div>
+                                  <Carousel {...settings}>
+                                      <div>
+                                          <img src={image1} alt="First slide" className="slick-image" />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Yellowstone National Park, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                      <div>
+                                          <img
+                                              src={image2}
+                                              alt="Second slide"
+                                              className="slick-image"
+                                              />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Somewhere Beyond, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                      <div>
+                                          <img src={image3} alt="Third slide" className="slick-image" />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Yellowstone National Park, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                  </Carousel>
+                              </div>
+                          </GridItem>
+                          <GridItem xs={3} md={4}>
+                              <Card className='side-text-wrapper'>
+                                  <h3 className='side-text-header'>
+                                      Project 1
+                                  </h3>
+                                  <div className='side-text-body'>
+                                      words
+                                  </div>
+                              </Card>
+                          </GridItem>
+                      </GridContainer>
                   </div>
-                </GridItem>
-              </GridContainer>
-            </div>
+                  <div className={classes.container}>
+                      <GridContainer className='grid-container'>
+                          <GridItem xs={3} md={4}>
+                              <Card className='side-text-wrapper'>
+                                  <h3 className='side-text-header'>
+                                      Project 1
+                                  </h3>
+                                  <div className='side-text-body'>
+                                      words
+                                  </div>
+                              </Card>
+                          </GridItem>
+                          <GridItem xs={12} sm={10} md={7} className={classes.marginAuto}>
+                              <div>
+                                  <Carousel {...settings}>
+                                      <div>
+                                          <img src={image1} alt="First slide" className="slick-image" />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Yellowstone National Park, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                      <div>
+                                          <img
+                                              src={image2}
+                                              alt="Second slide"
+                                              className="slick-image"
+                                              />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Somewhere Beyond, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                      <div>
+                                          <img src={image3} alt="Third slide" className="slick-image" />
+                                          <div className="slick-caption">
+                                              <h4>
+                                                  <LocationOn className="slick-icons" />
+                                                  Yellowstone National Park, United States
+                                              </h4>
+                                          </div>
+                                      </div>
+                                  </Carousel>
+                              </div>
+                          </GridItem>
+                      </GridContainer>
+                  </div>
+              </div>
           </div>
       </section>
   );

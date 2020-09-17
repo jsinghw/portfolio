@@ -7,7 +7,7 @@ html{
 }
 .MuiGrid-grid-xs-3{
     max-width: 75%
-    
+
 }
 /* Home Start */
 #home {
@@ -22,12 +22,9 @@ html{
     color: white;
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    width: 600px;
-    height: 200px;
     top: 50%;
     left: 50%;
-    margin-top: -100px;
-    margin-left: -300px;
+    transform: translate(-50%, -50%);
 }
 .highlight {
     color: #E68FAC;
@@ -102,6 +99,14 @@ html{
     outline:none;
     transition-duration: 0.5s;
 }
+@media screen and (max-width: 450px) {
+    #nav{
+        justify-content: space-around;
+    }
+    .nav-item{
+        margin-left: 0;
+    }
+}
 /* Nav End */
 
 /* About Start */
@@ -149,6 +154,18 @@ html{
         margin: 10px auto;
     }
 }
+@media screen and (max-width: 450px) {
+    .key-point-wrapper{
+        display: flex;
+        flex-direction: column;
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+    }
+    .key-point{
+        margin: 10px auto;
+    }
+}
+
 .key-point-img{
     height: 100px;
     width: 100px;
@@ -180,7 +197,7 @@ html{
 }
 .about-me-wrapper{
     display: flex;
-    padding: 30px 60px;
+    padding: 60px 30px;
     margin: 0 auto;
     max-width: 1440px;
     justify-content: center;
@@ -197,7 +214,7 @@ html{
     max-width: 55%;
     margin: auto 10px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
     .about-body-wrapper{
         flex-direction: column;
     }
@@ -208,6 +225,11 @@ html{
     .about-text-wrapper{
         max-width: 85%;
         margin: 10px auto;
+    }
+}
+@media screen and (max-width: 750px) {
+    .about-me-wrapper{
+        padding: 45px 15px;
     }
 }
 
@@ -264,6 +286,12 @@ html{
 
 /* Portfolio Start */
 /* Slider */
+@media screen and (max-width: 630px) {
+    .carousel-wrapper{
+        width: 85vw;
+        margin: auto;
+    }
+}
 .card-block{
     display: block
 }
@@ -547,6 +575,13 @@ button.slick-arrow.slick-next {
 .contact-question{
     text-align: center;
 }
+
+@media screen and (max-width: 750px) {
+    .contact-form-wrapper{
+        width: 90vw;
+        margin: auto;
+    }
+}
 .contact-form{
     margin: auto;
     padding-top: 30px;
@@ -594,6 +629,7 @@ button.slick-arrow.slick-next {
 .social-item-wrapper{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: auto;
     width: 100%;
 }
@@ -613,6 +649,11 @@ button.slick-arrow.slick-next {
 }
 .svg-inline--fa.fa-w-10{
     width:16px;
+}
+@media screen and (max-width: 400px) {
+    .social-text{
+        display: none;
+    }
 }
 /* contact section end */
 

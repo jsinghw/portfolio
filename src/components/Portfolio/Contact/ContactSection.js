@@ -24,11 +24,13 @@ export default function ContactSection() {
               </div>
               <div className='contact-wrapper'>
                   <h2 className="header-text">Contact</h2>
-                  <Card className="contact-form">
-                      <h3 className="contact-question">Have a question or want to work together?</h3>
-                      <ContactForm></ContactForm>
-                  </Card>
+                  <div className="contact-form-wrapper">
+                      <Card className="contact-form">
+                          <h3 className="contact-question">Have a question or want to work together?</h3>
+                          <ContactForm></ContactForm>
+                      </Card>
                   <ContactSocial></ContactSocial>
+              </div>
               </div>
               <div className="contact-back-to-top">
                   <LinkScroll
