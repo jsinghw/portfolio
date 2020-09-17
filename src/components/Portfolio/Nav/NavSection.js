@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
+import { Link as LinkScroll } from "react-scroll";
 
 
 export default function NavSection() {

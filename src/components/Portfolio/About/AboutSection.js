@@ -3,8 +3,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 // core components
 import Paper from '@material-ui/core/Paper';
-import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
+
 import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardBody from "components/Card/CardBody.js";
@@ -84,8 +83,8 @@ export default function AboutSection() {
               </div>
           </div>
           <div className="about-me-wrapper">
-              <GridContainer spacing={0}>
-                  <GridItem xs={12} sm={4} md={4}>
+              <div className="about-body-wrapper">
+                  <div className="about-card-wrapper">
                       <Card profile>
                           <CardHeader image>
                               <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -125,18 +124,16 @@ export default function AboutSection() {
                               </Button>
                           </CardFooter>
                       </Card>
-                  </GridItem>
-                  <GridItem xs={12} sm={4} md={8} className='about-text-wrapper'>
-                      <Paper className='about-text'>
+                  </div>
+                  <div className='about-text-wrapper'>
+                      <Paper elevation={3} className='about-text'>
                           Change md to 4 if you want to switch back to 2/3 of the screen.
                           I'm baby edison bulb taxidermy banh mi squid tumblr raw denim. Taiyaki jianbing etsy street art typewriter succulents authentic. Everyday carry four dollar toast fam, man bun gluten-free tumblr banh mi kogi palo santo artisan. Mlkshk yuccie subway tile hell of jean shorts cold-pressed artisan drinking vinegar woke organic mustache scenester. Artisan +1 synth salvia. Roof party shabby chic DIY, butcher four loko portland twee williamsburg vegan knausgaard ramps echo park. Hell of vice la croix, slow-carb flexitarian kogi leggings prism kitsch.
                       </Paper>
-                  </GridItem>
-              </GridContainer>
+                  </div>
+              </div>
           </div>
       </section>
-      <div className='arrow-down-portfolio'>
-      </div>
       </React.Fragment>
   );
 }
