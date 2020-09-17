@@ -286,10 +286,47 @@ html{
 
 /* Portfolio Start */
 /* Slider */
+.carousel-wrapper{
+     display: flex;
+     max-width:1440px;
+     justify-content: center;
+     padding-bottom: 30px;
+}
+.carousel-imgs-1{
+    width: 65%;
+}
+.carousel-txt-1{
+    width: 25%;
+    margin-left: 10px;
+}
+.carousel-imgs-2{
+    width: 65%;
+}
+.carousel-txt-2{
+    width: 25%;
+    margin-right: 10px;
+}
 @media screen and (max-width: 630px) {
     .carousel-wrapper{
         width: 85vw;
         margin: auto;
+        flex-direction: column;
+    }
+    .carousel-imgs-1{
+        width: 100%;
+    }
+    .carousel-txt-1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .carousel-imgs-2{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .carousel-txt-2{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: -25px;
     }
 }
 .card-block{
