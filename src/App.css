@@ -295,6 +295,7 @@ html{
 }
 .carousel-imgs-1{
     width: 65%;
+
 }
 .carousel-txt-1{
     width: 25%;
@@ -463,13 +464,13 @@ button.slick-arrow.slick-next {
   width: 15%;
   z-index: 2;
   opacity: 0.5; }
-
+@import url("https://use.fontawesome.com/releases/v5.14.0/css/all.css");
 .slick-prev {
   left: 0; }
   .slick-prev::before {
     content: "\f053";
     font-weight: 600;
-    font-family: Font Awesome\ 5 Free;
+    font-family: "Font Awesome 5 Free";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -486,7 +487,7 @@ button.slick-arrow.slick-next {
   .slick-next::before {
     content: "\f054";
     font-weight: 600;
-    font-family: Font Awesome\ 5 Free;
+    font-family: "Font Awesome 5 Free";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -580,6 +581,10 @@ button.slick-arrow.slick-next {
 }
 .side-text-body{
     padding: 15px;
+}
+.sl-contain{
+    display: block;
+    width: 65vw;
 }
 
 /* contact section start */

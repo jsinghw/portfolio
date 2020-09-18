@@ -13,13 +13,38 @@ import image2 from "assets/img/bg2.jpg";
 import image3 from "assets/img/bg3.jpg";
 
 
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props
+    return (
+        <button
+        className={className}
+        style={{ ...style }}
+        onClick={onClick}
+        />
+    )
+}
+
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props
+    return (
+        <button
+        className={className}
+        style={{ ...style }}
+        onClick={onClick}
+        />
+    )
+}
+
+
 export default function CarouselSection() {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow className="slick-arrow slick-next"/>,
+    prevArrow: <SamplePrevArrow className="slick-arrow slick-next"/>
     // autoplay: true
   };
   return (
