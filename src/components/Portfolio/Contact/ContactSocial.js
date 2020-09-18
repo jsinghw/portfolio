@@ -22,13 +22,13 @@ export default function ContactSocial() {
                   <div className="social-item">
                       <Button color="linkedin" href="https://www.linkedin.com/in/jaspalsingh94/" >
                           <FontAwesomeIcon icon={['fab', 'linkedin']} className="svg-inline--fa.fa-w-14" />
-                          <span className="social-text">Connect with linkedin</span>
+                          <span className="social-text">&nbsp; Connect with &nbsp;</span><span>Linkedin</span>
                       </Button>
                   </div>
                   <div className="social-item">
                       <Button color="github" href="https://github.com/jsinghw">
                           <FontAwesomeIcon icon={['fab', 'github']} className="svg-inline--fa.fa-w-16" />
-                          <span className="social-text">Connect with Github</span>
+                          <span className="social-text">&nbsp; Connect with &nbsp;</span><span>Github</span>
                       </Button>
                   </div>
               </div>
