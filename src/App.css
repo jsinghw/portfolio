@@ -291,6 +291,7 @@ html{
      max-width:1440px;
      justify-content: center;
      padding-bottom: 30px;
+     margin: auto;
 }
 .carousel-imgs-1{
     width: 65%;
