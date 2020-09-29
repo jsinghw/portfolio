@@ -16,7 +16,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-import cardProfile4 from "assets/img/examples/card-profile4.jpg";
+import cardProfile4 from "assets/img/profile.jpg";
 
 
 import styles from "assets/jss/material-kit-pro-react/views/componentsSections/sectionCards.js";
@@ -90,7 +90,7 @@ export default function AboutSection() {
                               <a href="#pablo" onClick={e => e.preventDefault()}>
                                   <img src={cardProfile4} alt="..." />
                                   <div className={classes.cardTitleAbsolute}>
-                                      Tania Andrew
+                                      Jaspal Singh
                                   </div>
                               </a>
                               <div
@@ -103,7 +103,7 @@ export default function AboutSection() {
                           </CardHeader>
                           <CardBody>
                               <Info>
-                                  <h6 className={classes.cardCategory}>WEB DESIGNER</h6>
+                                  <h6 className={classes.cardCategory}>FULL STACK ENGINEER</h6>
                               </Info>
                               <p className={classes.cardDescription}>
                                   Don{"'"}t be scared of the truth because we need to
