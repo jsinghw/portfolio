@@ -6,6 +6,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // core components
+import { makeStyles } from '@material-ui/core/styles';
 import Card from "components/Card/Card.js";
 import Button from 'components/CustomButtons/Button.js';
 
@@ -15,7 +16,18 @@ import ContactSocial from "components/Portfolio/Contact/ContactSocial.js"
 library.add(fas)
 
 
+const useStyles = makeStyles({
+    buttonBackground: {
+        backgroundColor: '#801357',
+        '&:hover':{
+            backgroundColor: '#e7627d'
+        }
+    },
+})
+
 export default function ContactSection() {
+
+    const classes = useStyles();
 
   return (
       <section id='contact'>
@@ -32,7 +44,7 @@ export default function ContactSection() {
                   <ContactSocial></ContactSocial>
               </div>
               </div>
-              <div className="contact-back-to-top">
+              <div className="contact-back-to-top-wrapper">
                   <LinkScroll
                       to='home'
                       spy={true}
@@ -40,7 +52,7 @@ export default function ContactSection() {
                       offset={-45}
                       duration={350}
                       >
-                      <Button type="button" color="info">
+                      <Button type="button" className={classes.buttonBackground}>
                           <FontAwesomeIcon icon={['fas', 'angle-double-up']} className="svg-inline--fa.fa-w-10" />
                       </Button>
                   </LinkScroll>

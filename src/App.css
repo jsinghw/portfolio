@@ -661,10 +661,27 @@ button.slick-arrow.slick-next {
   display: inline;
   content: "⚠ ";
 }
-.form-button{
+.form-button-wrapper{
     margin-top: 14px;
     display: flex;
     justify-content: center;
+}
+.form-button{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    color: #801357;
+    border: 3px solid #801357;
+    background-color: rgba(0,0,0,0);
+    outline:none;
+    transition-duration: 0.5s;
+}
+.form-button:hover {
+    border: 3px solid white;
+    color: #e7627d;
+    font-size: 32px;
 }
 
 .social-wrapper{
@@ -694,11 +711,15 @@ button.slick-arrow.slick-next {
 .social-item{
     margin: auto;
 }
-.contact-back-to-top{
+.contact-back-to-top-wrapper{
     display: flex;
     margin-top: 20px;
     justify-content: center;
 }
+.contact-back-to-top{
+    background-color: #801357;
+}
+
 .svg-inline--fa.fa-w-16{
     width: 20px;
 }
