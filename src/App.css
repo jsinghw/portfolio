@@ -458,7 +458,7 @@ button.slick-arrow.slick-next {
   transform: translateY(-50%);
   cursor: pointer;
   border: none;
-  color: transparent;
+  color: black;
   outline: none;
   background: transparent;
   width: 15%;
@@ -478,7 +478,7 @@ button.slick-arrow.slick-next {
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
-    color: white;
+    color: black;
     font-size: 30px;
     width: 100%; }
 
@@ -495,7 +495,7 @@ button.slick-arrow.slick-next {
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
-    color: #fff;
+    color: black;
     font-size: 30px;
     width: 100%; }
 
@@ -543,7 +543,7 @@ button.slick-arrow.slick-next {
     content: "\2022";
     text-align: center;
     opacity: 1;
-    background-color: #fff;
+    background-color: darkgray;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
@@ -578,6 +578,14 @@ button.slick-arrow.slick-next {
 }
 .side-text-header{
     text-align: center;
+}
+.side-text-subheader{
+    text-align: center;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px darkgrey solid;
 }
 .side-text-body{
     padding: 15px;
