@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sansita+Swashed:wght@700&display=swap');
+
 html{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -21,13 +23,13 @@ html{
     font-size: 48px;
     color: white;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Sansita Swashed', cursive;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .highlight {
-    color: #E68FAC;
+    color: #6297e7;
 }
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
@@ -42,7 +44,8 @@ html{
     height: 50px;
     width: 200px;
     margin-top: 40px;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
     color: white;
     border: 3px solid white;
     background-color: rgba(0,0,0,0);
@@ -55,9 +58,9 @@ html{
     transition-duration: 0.5s;
 }
 .home-button:hover {
-    border: 3px solid #E68FAC;
-    color: #E68FAC;
-    font-size: 18px;
+    border: 3px solid white;
+    color: white;
+    font-size: 24px;
 }
 .home-button:hover .home-icon {
     height: 18px;
@@ -76,7 +79,7 @@ html{
     width: 100vw;
     height: 40px;
     background-color: white;
-    border-bottom: 3px solid #86377b;
+    border-bottom: 3px solid #801357;
     scroll-behavior: smooth;
 }
 .nav-item{
@@ -86,10 +89,14 @@ html{
 }
 .nav-item-text{
     transition-duration: .5s;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    color: #801357;
+
 }
 .nav-item-text:hover {
-    border-bottom: 1px solid #86377b;
-    color: #86377b;
+    border-bottom: 1px solid #e7627d;
+    color: #e7627d;
 }
 .nav-item-btn{
     font-size: 16px;
@@ -119,10 +126,10 @@ html{
     margin-bottom: 40px;
     text-align: center;
     font-size: 48px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-weight: normal;
     text-decoration: underline;
-    color: #0E2046;
+    color: #801357;
 }
 .key-point-wrapper{
     display: flex;
@@ -739,7 +746,11 @@ button.slick-arrow.slick-next {
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+    background-image: #03001e;  /* fallback for old browsers */
+    background-image: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+
 }
 .bgTop {
     z-index: 15;
@@ -765,7 +776,7 @@ button.slick-arrow.slick-next {
     background-size: 50% 100px;
 }
 .waveAnimation .waveTop {
-  animation: move-wave 3s;
+   animation: move-wave 3s linear infinite;
    -webkit-animation: move-wave 3s;
    -webkit-animation-delay: 1s;
    animation-delay: 1s;

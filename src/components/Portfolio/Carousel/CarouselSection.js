@@ -1,8 +1,6 @@
 import React from "react";
 // react component for creating beautiful carousel
 import Carousel from "react-slick";
-// @material-ui/icons
-import LocationOn from "@material-ui/icons/LocationOn";
 // core components
 import Card from "components/Card/Card.js";
 
