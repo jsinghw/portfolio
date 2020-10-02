@@ -106,10 +106,7 @@ export default function AboutSection() {
                                   <h6 className={classes.cardCategory}>FULL STACK ENGINEER</h6>
                               </Info>
                               <p className={classes.cardDescription}>
-                                  Don{"'"}t be scared of the truth because we need to
-                                  restart the human foundation in truth And I love you
-                                  like Kanye loves Kanye I love Rick Owens’ bed design but
-                                  the back is...
+                          Hi, I'm a recent Kenzie Academy Grad who has a real passion building out projects and always trying to learning something new along the way.
                               </p>
                           </CardBody>
                           <CardFooter
@@ -125,12 +122,7 @@ export default function AboutSection() {
                           </CardFooter>
                       </Card>
                   </div>
-                  <div className='about-text-wrapper'>
-                      <Paper elevation={3} className='about-text'>
-                          Change md to 4 if you want to switch back to 2/3 of the screen.
-                          I'm baby edison bulb taxidermy banh mi squid tumblr raw denim. Taiyaki jianbing etsy street art typewriter succulents authentic. Everyday carry four dollar toast fam, man bun gluten-free tumblr banh mi kogi palo santo artisan. Mlkshk yuccie subway tile hell of jean shorts cold-pressed artisan drinking vinegar woke organic mustache scenester. Artisan +1 synth salvia. Roof party shabby chic DIY, butcher four loko portland twee williamsburg vegan knausgaard ramps echo park. Hell of vice la croix, slow-carb flexitarian kogi leggings prism kitsch.
-                      </Paper>
-                  </div>
+
               </div>
           </div>
       </section>
