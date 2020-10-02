@@ -2,7 +2,6 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // core components
-import Paper from '@material-ui/core/Paper';
 
 import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";
