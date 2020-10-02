@@ -12,8 +12,8 @@ import MuiAlert from '@material-ui/lab/Alert';
 
 import { TextField } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
+import GridContainer from "../../../components/Grid/GridContainer.js";
+import GridItem from "../../../components/Grid/GridItem.js";
 
 
 init("user_1ED4n9wgLPnUEAcEZymZd");

@@ -2,39 +2,39 @@ import React from "react";
 // react component for creating beautiful carousel
 import Carousel from "react-slick";
 // core components
-import Card from "components/Card/Card.js";
+import Card from "../../../components/Card/Card.js";
 
 
 
-import img11 from "assets/img/project1/proj1-1.png";
-import img12 from "assets/img/project1/proj1-2.png";
-import img13 from "assets/img/project1/proj1-3.png";
-import img14 from "assets/img/project1/proj1-4.png";
-import img15 from "assets/img/project1/proj1-5.png";
-import img16 from "assets/img/project1/proj1-6.png";
-import img17 from "assets/img/project1/proj1-7.png";
-import img18 from "assets/img/project1/proj1-8.png";
+import img11 from "../../../assets/img/project1/proj1-1.png";
+import img12 from "../../../assets/img/project1/proj1-2.png";
+import img13 from "../../../assets/img/project1/proj1-3.png";
+import img14 from "../../../assets/img/project1/proj1-4.png";
+import img15 from "../../../assets/img/project1/proj1-5.png";
+import img16 from "../../../assets/img/project1/proj1-6.png";
+import img17 from "../../../assets/img/project1/proj1-7.png";
+import img18 from "../../../assets/img/project1/proj1-8.png";
 
 
-import img21 from "assets/img/project2/proj2-1.png";
-import img22 from "assets/img/project2/proj2-2.png";
-import img23 from "assets/img/project2/proj2-3.png";
-import img24 from "assets/img/project2/proj2-4.png";
-import img25 from "assets/img/project2/proj2-5.png";
-import img26 from "assets/img/project2/proj2-6.png";
+import img21 from "../../../assets/img/project2/proj2-1.png";
+import img22 from "../../../assets/img/project2/proj2-2.png";
+import img23 from "../../../assets/img/project2/proj2-3.png";
+import img24 from "../../../assets/img/project2/proj2-4.png";
+import img25 from "../../../assets/img/project2/proj2-5.png";
+import img26 from "../../../assets/img/project2/proj2-6.png";
 
 
-import img31 from "assets/img/project3/proj3-1.png";
-import img32 from "assets/img/project3/proj3-2.png";
-import img33 from "assets/img/project3/proj3-3.png";
-import img34 from "assets/img/project3/proj3-4.png";
+import img31 from "../../../assets/img/project3/proj3-1.png";
+import img32 from "../../../assets/img/project3/proj3-2.png";
+import img33 from "../../../assets/img/project3/proj3-3.png";
+import img34 from "../../../assets/img/project3/proj3-4.png";
 
 
-import img41 from "assets/img/project4/proj4-1.png";
-import img42 from "assets/img/project4/proj4-2.png";
-import img43 from "assets/img/project4/proj4-3.png";
-import img44 from "assets/img/project4/proj4-4.png";
-import img45 from "assets/img/project4/proj4-5.png";
+import img41 from "../../../assets/img/project4/proj4-1.png";
+import img42 from "../../../assets/img/project4/proj4-2.png";
+import img43 from "../../../assets/img/project4/proj4-3.png";
+import img44 from "../../../assets/img/project4/proj4-4.png";
+import img45 from "../../../assets/img/project4/proj4-5.png";
 
 
 

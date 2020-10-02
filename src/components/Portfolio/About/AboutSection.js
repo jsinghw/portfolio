@@ -3,22 +3,22 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 // core components
 
-import Card from "components/Card/Card.js";
-import CardHeader from "components/Card/CardHeader.js";
-import CardBody from "components/Card/CardBody.js";
-import CardFooter from "components/Card/CardFooter.js";
-import Button from "components/CustomButtons/Button.js";
-import Info from "components/Typography/Info.js";
+import Card from "../../../components/Card/Card.js";
+import CardHeader from "../../../components/Card/CardHeader.js";
+import CardBody from "../../../components/Card/CardBody.js";
+import CardFooter from "../../../components/Card/CardFooter.js";
+import Button from "../../../components/CustomButtons/Button.js";
+import Info from "../../../components/Typography/Info.js";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-import cardProfile4 from "assets/img/profile.jpg";
+import cardProfile4 from "../../../assets/img/profile.jpg";
 
 
-import styles from "assets/jss/material-kit-pro-react/views/componentsSections/sectionCards.js";
+import styles from "../../../assets/jss/material-kit-pro-react/views/componentsSections/sectionCards.js";
 
 const useStyles = makeStyles(styles);
 

@@ -37,7 +37,7 @@
     "yup": "^0.29.3"
   },
   "scripts": {
-    "start": "NODE_PATH=./src react-scripts start",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",

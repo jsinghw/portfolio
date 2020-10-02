@@ -1,9 +1,9 @@
 import React from "react";
 
 import { Link as LinkScroll } from "react-scroll";
-import waveTop from 'assets/img/wave/wave-top.png'
-import waveMid from 'assets/img/wave/wave-mid.png'
-import waveBot from 'assets/img/wave/wave-bot.png'
+import waveTop from '../../../assets/img/wave/wave-top.png'
+import waveMid from '../../../assets/img/wave/wave-mid.png'
+import waveBot from '../../../assets/img/wave/wave-bot.png'
 
 export default function HomeSection() {
 

@@ -7,11 +7,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // core components
 import { makeStyles } from '@material-ui/core/styles';
-import Card from "components/Card/Card.js";
-import Button from 'components/CustomButtons/Button.js';
+import Card from "../../../components/Card/Card.js";
+import Button from '../../../components/CustomButtons/Button.js';
 
-import ContactForm from 'components/Portfolio/Contact/ContactForm.js'
-import ContactSocial from "components/Portfolio/Contact/ContactSocial.js"
+import ContactForm from '../../../components/Portfolio/Contact/ContactForm.js'
+import ContactSocial from "../../../components/Portfolio/Contact/ContactSocial.js"
 
 library.add(fas)
 

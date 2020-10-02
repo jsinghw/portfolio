@@ -10,11 +10,11 @@ import {
   roseColor,
   grayColor,
   hexToRgb
-} from "assets/jss/material-kit-pro-react.js";
+} from "../../../../../assets/jss/material-kit-pro-react.js";
 
-import imageStyles from "assets/jss/material-kit-pro-react/imagesStyles.js";
+import imageStyles from "../../../../../assets/jss/material-kit-pro-react/imagesStyles.js";
 
-import rotatingCards from "assets/jss/material-kit-pro-react/rotatingCards.js";
+import rotatingCards from "../../../../../assets/jss/material-kit-pro-react/rotatingCards.js";
 
 const styles = {
   container,

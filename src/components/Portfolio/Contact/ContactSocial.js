@@ -1,7 +1,7 @@
 import React from "react";
 
 import Paper from '@material-ui/core/Paper';
-import Button from 'components/CustomButtons/Button.js';
+import Button from '../../../components/CustomButtons/Button.js';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
