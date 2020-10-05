@@ -44,7 +44,6 @@ export default function AboutSection() {
                        Fast
                    </div>
                    <div className='key-point-text'>
-                      Some text about Fast
                   </div>
               </div>
               <div className='key-point'>
@@ -55,7 +54,6 @@ export default function AboutSection() {
                        Responsive
                    </div>
                    <div className='key-point-text'>
-                      Some text about Fast
                   </div>
               </div>
               <div className='key-point'>
@@ -66,7 +64,6 @@ export default function AboutSection() {
                        Intuitive
                    </div>
                    <div className='key-point-text'>
-                      Some text about Fast
                   </div>
               </div>
               <div className='key-point'>
@@ -77,7 +74,6 @@ export default function AboutSection() {
                        Dynamic
                    </div>
                    <div className='key-point-text'>
-                      Some text about Fast
                   </div>
               </div>
           </div>
