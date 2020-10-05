@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.92e6ed53.chunk.css",
-    "main.js": "/portfolio/static/js/main.5deb0c77.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5deb0c77.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.7e5a1e5d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7e5a1e5d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/js/2.0b71f3cc.chunk.js": "/portfolio/static/js/2.0b71f3cc.chunk.js",
     "static/js/2.0b71f3cc.chunk.js.map": "/portfolio/static/js/2.0b71f3cc.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ef0b40373c269cebaef67b7043bdc95c.js": "/portfolio/precache-manifest.ef0b40373c269cebaef67b7043bdc95c.js",
+    "precache-manifest.7d18d3e17291a66d24191ea2ccb134cb.js": "/portfolio/precache-manifest.7d18d3e17291a66d24191ea2ccb134cb.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.92e6ed53.chunk.css.map": "/portfolio/static/css/main.92e6ed53.chunk.css.map",
     "static/js/2.0b71f3cc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0b71f3cc.chunk.js.LICENSE.txt",
     "static/media/profile.jpg": "/portfolio/static/media/profile.a06651da.jpg",
-    "static/media/proj1-1.png": "/portfolio/static/media/proj1-1.f95789b9.png",
     "static/media/proj1-2.png": "/portfolio/static/media/proj1-2.f66718e8.png",
     "static/media/proj1-3.png": "/portfolio/static/media/proj1-3.7305c7a3.png",
     "static/media/proj1-4.png": "/portfolio/static/media/proj1-4.05456695.png",
@@ -21,6 +20,7 @@
     "static/media/proj1-6.png": "/portfolio/static/media/proj1-6.679e573a.png",
     "static/media/proj1-7.png": "/portfolio/static/media/proj1-7.6078bab3.png",
     "static/media/proj1-8.png": "/portfolio/static/media/proj1-8.8fcdac93.png",
+    "static/media/proj11.png": "/portfolio/static/media/proj11.f95789b9.png",
     "static/media/proj2-1.png": "/portfolio/static/media/proj2-1.9bd2ab4a.png",
     "static/media/proj2-2.png": "/portfolio/static/media/proj2-2.67be8988.png",
     "static/media/proj2-3.png": "/portfolio/static/media/proj2-3.ee22568e.png",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.0b71f3cc.chunk.js",
     "static/css/main.92e6ed53.chunk.css",
-    "static/js/main.5deb0c77.chunk.js"
+    "static/js/main.7e5a1e5d.chunk.js"
   ]
 }
