@@ -6,7 +6,7 @@ import Card from "../../../components/Card/Card.js";
 
 
 
-import img11 from "../../../assets/img/project1/proj1-1.png";
+import img11 from "../../../assets/img/project1/proj11.png";
 import img12 from "../../../assets/img/project1/proj1-2.png";
 import img13 from "../../../assets/img/project1/proj1-3.png";
 import img14 from "../../../assets/img/project1/proj1-4.png";
