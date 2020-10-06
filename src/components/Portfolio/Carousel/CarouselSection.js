@@ -2,7 +2,13 @@ import React from "react";
 // react component for creating beautiful carousel
 import Carousel from "react-slick";
 // core components
+import { makeStyles } from '@material-ui/core/styles';
 import Card from "../../../components/Card/Card.js";
+import Button from "../../../components/CustomButtons/Button.js";
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
@@ -37,6 +43,20 @@ import img44 from "../../../assets/img/project4/proj4-4.png";
 import img45 from "../../../assets/img/project4/proj4-5.png";
 
 
+library.add(fab)
+
+const useStyles = makeStyles({
+    sideFooter: {
+        position: "absolute",
+        bottom: "20px",
+        marginLeft: "auto",
+        marginRight: "auto",
+        left: "0",
+        right: "0",
+        textAlign: "center"
+    },
+})
+
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props
@@ -62,6 +82,9 @@ function SamplePrevArrow(props) {
 
 
 export default function CarouselSection() {
+
+  const classes = useStyles();
+
   const settings = {
     dots: true,
     infinite: true,
@@ -153,6 +176,11 @@ export default function CarouselSection() {
                       <div className='side-text-body'>
                           Project that is meant for a user to be able to create an account and then favorite, comment, and see nutritional information on that recipe. The nutritional information for each ingrident is returned from an api and then after calculating the total nutritional value of the recipe it is displayed to the user.
                       </div>
+                      <div className='side-text-footer'>
+                          <Button color="github" href="https://github.com/jsinghw/kaseq4-capstone-red" className={classes.sideFooder}>
+                              <FontAwesomeIcon icon={['fab', 'github']} className="svg-inline--fa.fa-w-16" /> Source Code
+                          </Button>
+                      </div>
                   </Card>
               </div>
           </div>
@@ -167,6 +195,11 @@ export default function CarouselSection() {
                       </h4>
                       <div className='side-text-body'>
                           Kwitter clone is a project aimed at cloning some of the most baisic features of Twitter. Users are able to create an account, edit their profiles, tweet, and like tweets.
+                      </div>
+                      <div className='side-text-footer'>
+                          <Button color="github" href="https://github.com/jsinghw/kwitter-react" className={classes.sideFooder}>
+                              <FontAwesomeIcon icon={['fab', 'github']} className="svg-inline--fa.fa-w-16" /> Source Code
+                              </Button>
                       </div>
                   </Card>
               </div>
@@ -269,6 +302,11 @@ export default function CarouselSection() {
                       <div className='side-text-body'>
                           Mars Needs is a meant to be a site that is able to take on thoughts and ideas from the public in ideas of what should be brought over to Mars. This allows users to submit thier ideas, get back a reference number for their idea, and allows admins the ability to search through all of the ideas.
                       </div>
+                      <div className='side-text-footer'>
+                          <Button color="github" href="https://github.com/jsinghw/Mars-Needs/tree/master" className={classes.sideFooder}>
+                              <FontAwesomeIcon icon={['fab', 'github']} className="svg-inline--fa.fa-w-16" /> Source Code
+                              </Button>
+                      </div>
                   </Card>
               </div>
           </div>
@@ -283,6 +321,11 @@ export default function CarouselSection() {
                       </h4>
                       <div className='side-text-body'>
                           This project is meant to be an internal tool that could be used to help track progress on bugs or issues in an application. Initial users must be created by a super user and then all new users must be created from exisiting users. Any user can submit a ticket for other users to claim. Once a ticket is claimed by a user, that user can invalidate a ticket or complete it.
+                      </div>
+                      <div className='side-text-footer'>
+                          <Button color="github" href="https://github.com/jsinghw/Bug_Tracker" className={classes.sideFooder}>
+                              <FontAwesomeIcon icon={['fab', 'github']} className="svg-inline--fa.fa-w-16" /> Source Code
+                              </Button>
                       </div>
                   </Card>
               </div>
